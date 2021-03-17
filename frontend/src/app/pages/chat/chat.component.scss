@@ -1,0 +1,10 @@
+#text-form{ 
+    textarea {
+        resize: none;
+        width: 100%;
+        height: calc(100% - 6px);
+    }
+}
+.btn-send {
+    margin-top: 20%;
+}
