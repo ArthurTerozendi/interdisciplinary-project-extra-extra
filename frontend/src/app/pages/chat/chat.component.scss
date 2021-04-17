@@ -8,3 +8,22 @@
 .btn-send {
     margin-top: 20%;
 }
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #BFDFFF;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #BFDFFF;
+    border-radius: 20px;
+  }

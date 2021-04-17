@@ -1,1 +1,13 @@
-<p>profile works!</p>
+<div class="row m-0" style="height: 100%; width: calc(100vw);">
+    <div class="col-xl-2" style="height: calc(100%); background-color: #314354;">
+        <div class="row p-4" style="height: 60px; cursor: pointer;" (click)="openGeneralInfo()">
+            Informações Gerais
+        </div>
+        <div class="row p-4" style="height: 60px; cursor: pointer;" (click)="openSecurity()">
+            Seguraça
+        </div>
+    </div>
+    <div class="col-xl-10" style="height: calc(100%);">
+        <router-outlet></router-outlet>
+    </div>
+</div>

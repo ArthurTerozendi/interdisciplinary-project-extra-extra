@@ -6,6 +6,14 @@ const routes: Routes = [
   {
     path: "",
     component: ProfileComponent
+  },
+  {
+    path: "general-info",
+    loadChildren: () => import("./pages/general-info/general-info.module").then(m => m.GeneralInfoModule)
+  },
+  {
+    path: "security",
+    loadChildren: () => import("./pages/security/security.module").then(m => m.SecurityModule)
   }
 ];
 
