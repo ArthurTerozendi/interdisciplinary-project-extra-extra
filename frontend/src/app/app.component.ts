@@ -19,7 +19,7 @@ export class AppComponent {
     this.router.navigateByUrl("chat");
   }
   openProfile() {
-    this.router.navigateByUrl("profile");
+    this.router.navigateByUrl("profile/general-info");
   }
   openLogout() {
     this.router.navigateByUrl("login");
