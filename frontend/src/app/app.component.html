@@ -1,0 +1,17 @@
+<div id="navbar" class="row navbar m-0" style="height: 60px;">
+  <div id="home" class="col-9">
+    <h3> Extra, Extra! </h3>
+  </div>
+  <div id="chat" class="col-1" (click)="openChat()">
+    <h4 class="navbar-item"> Chat </h4>
+  </div>
+  <div id="profile" class="col-1" (click)="openProfile()">
+    <h4 class="navbar-item"> Perfil </h4>
+  </div>
+  <div id="logout" class="col-1" (click)="openLogout()">
+    <h4 class="navbar-item"> Sair </h4>
+  </div>
+</div>
+<div id="content" class="row m-0" style="height: calc(100vh - 60px)">
+  <router-outlet></router-outlet>
+</div>
