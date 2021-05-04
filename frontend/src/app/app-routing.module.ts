@@ -20,7 +20,7 @@ const routes: Routes = [
   },
   {
     path: "",
-    redirectTo: "login",
+    redirectTo: "chat",
     pathMatch: "full"
   }
 ];
