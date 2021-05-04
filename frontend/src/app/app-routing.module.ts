@@ -3,6 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
+    path: "cadastro",
+    loadChildren: () => import("./pages/cadastro/cadastro.module").then(m => m.CadastroModule)
+  },
+  {
     path: "chat",
     loadChildren: () => import("./pages/chat/chat.module").then(m => m.ChatModule)
   },

@@ -1,0 +1,91 @@
+.loginDiv{
+  position: absolute;
+  left: 35.72%;
+  right: 38.72%;
+  top: 14.08%;
+  bottom: 14.21%;
+
+  background: #EBFFFE;
+  border: 3px solid #000000;
+  border-radius: 50px;
+}
+
+.loginBut{
+position: absolute;
+left: 32.59%;
+right: 42.59%;
+top: 63.88%;
+bottom: 28.69%;
+width:30%;
+height:12%;
+background: #7EA6E0;
+border: 3px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.userInput{
+position: absolute;
+left: 5.12%;
+right: 39.19%;
+top: 29.48%;
+bottom: 62.42%;
+width: 80%;
+background: #BFDFFF;
+border-radius: 10px;
+}
+
+.userPasswordInput{
+  position: absolute;
+  left: 5.12%;
+  right: 39.19%;
+  top: 49.93%;
+  bottom: 41.97%;
+  width: 80%;
+  background: #BFDFFF;
+  border-radius: 10px;
+}
+.userLabel{
+  position: absolute;
+left: 5.12%;
+right: 48.66%;
+top: 18.97%;
+bottom: 70.52%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 120%;
+color: #123456;
+}
+
+.passwordlabel{
+  position: absolute;
+left: 5.12%;
+right: 48.66%;
+top: 39.43%;
+bottom: 50.07%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 120%;
+color: #123456;
+}
+ #cadastroLink{
+position: absolute;
+left: 35.77%;
+right: 45.84%;
+top: 80.51%;
+bottom: 24.04%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 120%;
+
+color: #2C0AFF;
+ }

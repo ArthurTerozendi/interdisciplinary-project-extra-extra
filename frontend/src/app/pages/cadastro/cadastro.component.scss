@@ -1,0 +1,92 @@
+#userInput{
+position: absolute;
+left: 8.24%;
+right: 70.07%;
+top: 28.82%;
+bottom: 63.08%;
+width: 80%;
+background: #BFDFFF;
+border-radius: 10px;
+}
+#userLabel{
+  position: absolute;
+  left: 8.24%;
+  right: 79.54%;
+  top: 22.31%;
+  bottom: 71.18%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 120%;
+
+  color: #123456;
+}
+
+#emailInput{
+position: absolute;
+left: 8.24%;
+right: 70.07%;
+top: 49.27%;
+bottom: 42.63%;
+width: 80%;
+background: #BFDFFF;
+border-radius: 10px;
+}
+#emailLabel{
+  position: absolute;
+  left: 8.24%;
+  right: 79.54%;
+  top: 42.76%;
+  bottom: 50.73%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 120%;
+
+  color: #123456;
+}
+
+#passwordInput{
+position: absolute;
+left: 8.24%;
+right: 70.07%;
+top: 69.72%;
+bottom: 22.18%;
+width: 80%;
+background: #BFDFFF;
+border-radius: 10px;
+}
+#passwordLabel{
+  position: absolute;
+  left: 8.24%;
+  right: 79.54%;
+  top: 63.21%;
+  bottom: 30.28%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 120%;
+
+  color: #123456;
+
+}
+#cadastrobut{
+  position: absolute;
+left: 80.01%;
+right: 5.01%;
+top: 81.14%;
+bottom: 7.69%;
+widt:80%;
+height:20%;
+background: #7EA6E0;
+border: 3px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+float: right;
+}

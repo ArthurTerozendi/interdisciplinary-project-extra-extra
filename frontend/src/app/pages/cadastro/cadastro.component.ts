@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+  selector: 'app-cadastro',
+  templateUrl: './cadastro.component.html',
+  styleUrls: ['./cadastro.component.scss']
 })
-export class LoginComponent implements OnInit {
+export class CadastroComponent implements OnInit {
 
   constructor(
     private router: Router
@@ -13,12 +13,8 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
   openChat() {
     this.router.navigateByUrl("chat");
-  }
-  openCadastro() {
-    this.router.navigateByUrl("cadastro");
   }
 
 }
